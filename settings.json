@@ -29,12 +29,6 @@
   "breadcrumbs.showVariables": false,
   "breadcrumbs.symbolPath": "off",
 
-  // Cursor settings
-  "cursor.chat.ghostTextAtSymbols": true,
-  "cursor.cmdk.ghostTextAtSymbols": true,
-  "cursor.cmdk.useThemedDiffBackground": true,
-  "cursor.diffs.useCharacterLevelDiffs": true,
-
   // Diff Editor settings
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
