@@ -1,5 +1,113 @@
 {
-  // Breadcrumbs Settings
+  // Core Editor Settings
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 2,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Editor Display
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": false,
+  "editor.renderLineHighlight": "none",
+  "editor.smoothScrolling": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": false,
+  "editor.guides.indentation": false,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.minimap.renderCharacters": false,
+
+  // Editor Behavior
+  "editor.linkedEditing": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.autoClosingDelete": "always",
+  "editor.autoClosingOvertype": "always",
+  "editor.dragAndDrop": false,
+  "editor.dropIntoEditor.enabled": false,
+  "editor.emptySelectionClipboard": false,
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.codeLens": false,
+  "editor.colorDecorators": false,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.accessibilityPageSize": 1,
+  "editor.accessibilitySupport": "off",
+
+  // Suggestions and Intellisense
+  "editor.quickSuggestions": { "strings": "on" },
+  "editor.quickSuggestionsDelay": 0,
+  "editor.snippetSuggestions": "none",
+  "editor.suggest.showWords": false,
+  "editor.suggest.showSnippets": false,
+  "editor.snippets.codeActions.enabled": false,
+  "editor.inlayHints.padding": true,
+  "editor.hover.delay": 500,
+  "editor.rename.enablePreview": false,
+  "editor.screenReaderAnnounceInlineSuggestion": false,
+  "editor.showFoldingControls": "always",
+  "editor.unfoldOnClickAfterEndOfLine": true,
+
+  // Navigation
+  "editor.gotoLocation.alternativeImplementationCommand": "editor.action.goToReferences",
+  "editor.gotoLocation.alternativeReferenceCommand": "editor.action.goToReferences",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+  // Workbench and UI
+  "workbench.colorTheme": "Visual Studio Light",
+  "workbench.preferredDarkColorTheme": "Default Dark Modern",
+  "workbench.preferredLightColorTheme": "Visual Studio Light",
+  "workbench.fontAliasing": "antialiased",
+  "workbench.editor.enablePreview": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.list.smoothScrolling": true,
+  "workbench.view.alwaysShowHeaderActions": true,
+  "window.autoDetectColorScheme": true,
+
+  // File Management
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.associations": {
+    ".php_cs": "php",
+    ".php_cs.dist": "php",
+    "*.css": "tailwindcss",
+    "*.js": "javascript",
+    "*.php": "php"
+  },
+
+  // Language Specific
+  "[blade]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "vscode.json-language-features" },
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[tailwindcss]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[vue]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+
+  // Language Preferences
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+
+  // Terminal
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 2,
+
+  // Breadcrumbs
   "breadcrumbs.icons": false,
   "breadcrumbs.showArrays": false,
   "breadcrumbs.showBooleans": false,
@@ -29,107 +137,7 @@
   "breadcrumbs.showVariables": false,
   "breadcrumbs.symbolPath": "off",
 
-  // Appearance and Theme Settings
-  "workbench.colorTheme": "Visual Studio Light",
-  "workbench.preferredDarkColorTheme": "Visual Studio Dark",
-  "workbench.preferredLightColorTheme": "Visual Studio Light",
-  "workbench.fontAliasing": "antialiased",
-  "window.autoDetectColorScheme": true,
-
-  // Editor Font and Display
-  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 2,
-  "editor.renderWhitespace": "all",
-  "editor.renderControlCharacters": false,
-  "editor.renderLineHighlight": "none",
-  "editor.smoothScrolling": true,
-
-  // Editor Behavior
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.linkedEditing": true,
-  "editor.acceptSuggestionOnEnter": "on",
-  "editor.acceptSuggestionOnCommitCharacter": false,
-  "editor.autoClosingBrackets": "always",
-  "editor.autoClosingQuotes": "always",
-  "editor.autoClosingDelete": "always",
-  "editor.autoClosingOvertype": "always",
-  "editor.dragAndDrop": false,
-  "editor.dropIntoEditor.enabled": false,
-  "editor.emptySelectionClipboard": false,
-  "editor.find.addExtraSpaceOnTop": false,
-  "editor.codeLens": false,
-  "editor.colorDecorators": false,
-  "editor.copyWithSyntaxHighlighting": false,
-  "editor.accessibilityPageSize": 1,
-  "editor.accessibilitySupport": "off",
-
-  // Editor Suggestions and Hints
-  "editor.quickSuggestions": { "strings": "on" },
-  "editor.quickSuggestionsDelay": 0,
-  "editor.snippetSuggestions": "none",
-  "editor.suggest.showWords": false,
-  "editor.suggest.showSnippets": false,
-  "editor.snippets.codeActions.enabled": false,
-  "editor.inlayHints.padding": true,
-  "editor.hover.delay": 500,
-  "editor.rename.enablePreview": false,
-  "editor.screenReaderAnnounceInlineSuggestion": false,
-  "editor.showFoldingControls": "always",
-  "editor.unfoldOnClickAfterEndOfLine": true,
-
-  // Editor Visual Guides
-  "editor.guides.bracketPairs": "active",
-  "editor.guides.bracketPairsHorizontal": false,
-  "editor.guides.indentation": false,
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.minimap.renderCharacters": false,
-
-  // Go To Location Settings
-  "editor.gotoLocation.alternativeImplementationCommand": "editor.action.goToReferences",
-  "editor.gotoLocation.alternativeReferenceCommand": "editor.action.goToReferences",
-  "editor.gotoLocation.multipleDeclarations": "goto",
-  "editor.gotoLocation.multipleDefinitions": "goto",
-  "editor.gotoLocation.multipleImplementations": "goto",
-  "editor.gotoLocation.multipleReferences": "goto",
-  "editor.gotoLocation.multipleTypeDefinitions": "goto",
-
-  // File Handling
-  "files.autoSave": "onFocusChange",
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
-  "files.associations": {
-    ".php_cs": "php",
-    ".php_cs.dist": "php",
-    "*.css": "tailwindcss",
-    "*.js": "javascript",
-    "*.php": "php"
-  },
-
-  // Language-specific Formatters
-  "[blade]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[json]": { "editor.defaultFormatter": "vscode.json-language-features" },
-  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[tailwindcss]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[vue]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-
-  // Language Preferences
-  "javascript.preferences.quoteStyle": "single",
-  "typescript.preferences.quoteStyle": "single",
-
-  // Terminal Settings
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.lineHeight": 2,
-
-  // Emmet Configuration
+  // Emmet
   "emmet.includeLanguages": {
     "blade": "html",
     "javascript": "html",
@@ -139,7 +147,7 @@
   },
   "emmet.showAbbreviationSuggestions": false,
 
-  // PHP Intelephense Settings
+  // PHP Intelephense
   "intelephense.completion.maxItems": 5,
   "intelephense.completion.suggestObjectOperatorStaticMethods": false,
   "intelephense.completion.triggerParameterHints": false,
@@ -149,7 +157,7 @@
   "intelephense.telemetry.enabled": false,
   "intelephense.diagnostics.run": "onSave",
 
-  // Search Configuration
+  // Search
   "search.exclude": {
     "**/_ide_helper.php": true,
     "**/bower_components": true,
@@ -169,26 +177,23 @@
   },
   "search.useIgnoreFiles": false,
 
-  // Workbench Settings
-  "workbench.editor.enablePreview": false,
-  "workbench.tree.renderIndentGuides": "none",
-  "workbench.list.smoothScrolling": true,
-  "workbench.view.alwaysShowHeaderActions": true,
+  // Explorer
   "explorer.confirmDelete": false,
   "explorer.sortOrder": "type",
 
-  // Cursor-specific Settings
-  "cursor.chat.premiumChatAutoScrollWhenAtBottom": true,
-  "cursor.chat.showSuggestedFiles": true,
-  "cursor.chat.collapseInputBoxPills": true,
-  "cursor.chat.smoothStreaming": true,
-
-  // Diff Editor Settings
+  // Diff Editor
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
 
-  // Other Settings
+  // Miscellaneous
   "security.workspace.trust.startupPrompt": "never",
   "tailwindCSS.colorDecorators": false,
-  "ipynb.pasteImagesAsAttachments.enabled": false
+  "ipynb.pasteImagesAsAttachments.enabled": false,
+  "cursor.composer.collapsePaneInputBoxPills": true,
+  "cursor.composer.renderPillsInsteadOfBlocks": true,
+  "cursor.general.gitGraphIndexing": "enabled",
+  "cursor.cmdk.useThemedDiffBackground": true,
+  "cursor.diffs.useCharacterLevelDiffs": true,
+  "cursor.terminal.usePreviewBox": true,
+  "Laravel.translation.diagnostics": false
 }
