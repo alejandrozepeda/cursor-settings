@@ -195,5 +195,6 @@
   "cursor.cmdk.useThemedDiffBackground": true,
   "cursor.diffs.useCharacterLevelDiffs": true,
   "cursor.terminal.usePreviewBox": true,
-  "Laravel.translation.diagnostics": false
+  "Laravel.translation.diagnostics": false,
+  "gitlens.launchpad.indicator.enabled": false
 }
