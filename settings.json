@@ -68,9 +68,6 @@
   "workbench.list.smoothScrolling": true,
   "workbench.view.alwaysShowHeaderActions": true,
   "window.autoDetectColorScheme": true,
-
-  // File Management
-  "files.autoSave": "onFocusChange",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
@@ -189,12 +186,12 @@
   "security.workspace.trust.startupPrompt": "never",
   "tailwindCSS.colorDecorators": false,
   "ipynb.pasteImagesAsAttachments.enabled": false,
-  "cursor.composer.collapsePaneInputBoxPills": true,
-  "cursor.composer.renderPillsInsteadOfBlocks": true,
   "cursor.general.gitGraphIndexing": "enabled",
   "cursor.cmdk.useThemedDiffBackground": true,
   "cursor.diffs.useCharacterLevelDiffs": true,
   "cursor.terminal.usePreviewBox": true,
+  "cursor.composer.collapsePaneInputBoxPills": true,
+  "cursor.composer.renderPillsInsteadOfBlocks": true,
   "Laravel.translation.diagnostics": false,
   "gitlens.launchpad.indicator.enabled": false
 }
