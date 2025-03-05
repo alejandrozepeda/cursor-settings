@@ -61,12 +61,14 @@
   // Workbench and UI
   "workbench.colorTheme": "Visual Studio Light",
   "workbench.preferredDarkColorTheme": "Default Dark Modern",
-  "workbench.preferredLightColorTheme": "Visual Studio Light",
+  "workbench.preferredLightColorTheme": "Default Light+",
   "workbench.fontAliasing": "antialiased",
   "workbench.editor.enablePreview": false,
   "workbench.tree.renderIndentGuides": "none",
   "workbench.list.smoothScrolling": true,
   "workbench.view.alwaysShowHeaderActions": true,
+
+  // Window and Files
   "window.autoDetectColorScheme": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
@@ -103,6 +105,10 @@
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.lineHeight": 2,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.suggest.enableExtensionCompletions": true,
+  "terminal.integrated.suggest.enabled": true,
 
   // Breadcrumbs
   "breadcrumbs.icons": false,
@@ -182,16 +188,24 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": false,
 
-  // Miscellaneous
-  "security.workspace.trust.startupPrompt": "never",
+  // Git
+  "git.confirmSync": false,
+
+  // Laravel
+  "Laravel.translation.diagnostics": false,
+
+  // Tailwind
   "tailwindCSS.colorDecorators": false,
-  "ipynb.pasteImagesAsAttachments.enabled": false,
+
+  // Cursor Specific
   "cursor.general.gitGraphIndexing": "enabled",
   "cursor.cmdk.useThemedDiffBackground": true,
   "cursor.diffs.useCharacterLevelDiffs": true,
   "cursor.terminal.usePreviewBox": true,
   "cursor.composer.collapsePaneInputBoxPills": true,
-  "cursor.composer.renderPillsInsteadOfBlocks": true,
-  "Laravel.translation.diagnostics": false,
-  "gitlens.launchpad.indicator.enabled": false
+  "cursor.cpp.enablePartialAccepts": true,
+
+  // Security and Other
+  "security.workspace.trust.startupPrompt": "never",
+  "ipynb.pasteImagesAsAttachments.enabled": false
 }
