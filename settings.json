@@ -1,130 +1,4 @@
 {
-  // Workbench and UI
-  "workbench.colorTheme": "Visual Studio Light",
-  "workbench.preferredLightColorTheme": "Default Light+",
-  "workbench.preferredDarkColorTheme": "Default Dark Modern",
-  "workbench.fontAliasing": "antialiased",
-  "workbench.tree.renderIndentGuides": "always",
-  "workbench.list.smoothScrolling": true,
-  "workbench.view.alwaysShowHeaderActions": true,
-  "workbench.tree.indent": 16,
-  "workbench.iconTheme": null,
-  "workbench.layoutControl.enabled": false,
-
-  // Window and Files
-  "window.autoDetectColorScheme": true,
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
-  "files.associations": {
-    ".php_cs": "php",
-    ".php_cs.dist": "php",
-    "*.css": "tailwindcss",
-    "*.js": "javascript",
-    "*.php": "php"
-  },
-
-  // Core Editor Settings
-  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 2,
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-
-  // Editor Display
-  "editor.renderWhitespace": "all",
-  "editor.renderControlCharacters": false,
-  "editor.renderLineHighlight": "none",
-  "editor.smoothScrolling": true,
-  "editor.guides.bracketPairs": "active",
-  "editor.guides.bracketPairsHorizontal": false,
-  "editor.guides.indentation": false,
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.minimap.renderCharacters": false,
-  "editor.colorDecorators": false,
-
-  // Editor Behavior
-  "editor.linkedEditing": true,
-  "editor.acceptSuggestionOnEnter": "on",
-  "editor.acceptSuggestionOnCommitCharacter": false,
-  "editor.autoClosingBrackets": "always",
-  "editor.autoClosingQuotes": "always",
-  "editor.autoClosingDelete": "always",
-  "editor.autoClosingOvertype": "always",
-  "editor.dragAndDrop": false,
-  "editor.dropIntoEditor.enabled": false,
-  "editor.emptySelectionClipboard": false,
-  "editor.find.addExtraSpaceOnTop": false,
-  "editor.codeLens": false,
-  "editor.copyWithSyntaxHighlighting": false,
-  "editor.accessibilityPageSize": 1,
-  "editor.accessibilitySupport": "off",
-  "editor.showFoldingControls": "always",
-  "editor.unfoldOnClickAfterEndOfLine": true,
-
-  // Suggestions and Intellisense
-  "editor.quickSuggestions": { "strings": "on" },
-  "editor.quickSuggestionsDelay": 0,
-  "editor.snippetSuggestions": "none",
-  "editor.suggest.showWords": false,
-  "editor.suggest.showSnippets": false,
-  "editor.snippets.codeActions.enabled": false,
-  "editor.inlayHints.padding": true,
-  "editor.hover.delay": 500,
-  "editor.rename.enablePreview": false,
-  "editor.screenReaderAnnounceInlineSuggestion": false,
-
-  // Navigation
-  "editor.gotoLocation.alternativeImplementationCommand": "editor.action.goToReferences",
-  "editor.gotoLocation.alternativeReferenceCommand": "editor.action.goToReferences",
-  "editor.gotoLocation.multipleDeclarations": "goto",
-  "editor.gotoLocation.multipleDefinitions": "goto",
-  "editor.gotoLocation.multipleImplementations": "goto",
-  "editor.gotoLocation.multipleReferences": "goto",
-  "editor.gotoLocation.multipleTypeDefinitions": "goto",
-
-  // Terminal
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.lineHeight": 2,
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.smoothScrolling": true,
-  "terminal.integrated.suggest.enableExtensionCompletions": true,
-  "terminal.integrated.suggest.enabled": true,
-
-  // Explorer
-  "explorer.confirmDelete": false,
-  "explorer.sortOrder": "type",
-  "explorer.confirmDragAndDrop": false,
-
-  // Diff Editor
-  "diffEditor.ignoreTrimWhitespace": false,
-  "diffEditor.renderSideBySide": false,
-
-  // Search
-  "search.exclude": {
-    "**/_ide_helper.php": true,
-    "**/bower_components": true,
-    "**/composer.lock": true,
-    "**/dist": true,
-    "**/node_modules": true,
-    "**/package-lock.json": true,
-    "**/public/{[^i],?[^n]}*": true,
-    "**/vendor/{[^l],?[^ai]}*": true,
-    ".phpunit.result.cache": true,
-    "storage": true,
-    "storage/framework/views": true,
-    "**/cdk.out": true,
-    "**/_ide_helper_models.php": true,
-    "**/.phpstorm.meta.php": true,
-    "**/.idea": true
-  },
-  "search.useIgnoreFiles": false,
-
-  // Git
-  "git.confirmSync": false,
-
-  // Breadcrumbs
   "breadcrumbs.icons": false,
   "breadcrumbs.showArrays": false,
   "breadcrumbs.showBooleans": false,
@@ -153,68 +27,29 @@
   "breadcrumbs.showTypeParameters": false,
   "breadcrumbs.showVariables": false,
   "breadcrumbs.symbolPath": "off",
-
-  // Language Specific Formatters
-  "[blade]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[json]": { "editor.defaultFormatter": "vscode.json-language-features" },
-  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[tailwindcss]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[vue]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": false
-  },
-
-  // Language Preferences
-  "javascript.preferences.quoteStyle": "single",
-  "typescript.preferences.quoteStyle": "single",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-
-  // Emmet
-  "emmet.includeLanguages": {
-    "blade": "html",
-    "javascript": "html",
-    "react": "html",
-    "vue": "html",
-    "vue-html": "html"
-  },
-  "emmet.showAbbreviationSuggestions": false,
-
-  // PHP Intelephense
-  "intelephense.completion.maxItems": 5,
-  "intelephense.completion.suggestObjectOperatorStaticMethods": false,
-  "intelephense.completion.triggerParameterHints": false,
-  "intelephense.diagnostics.undefinedMethods": false,
-  "intelephense.environment.documentRoot": "public/index.php",
-  "intelephense.format.enable": false,
-  "intelephense.telemetry.enabled": false,
-  "intelephense.diagnostics.run": "onSave",
-
-  // Laravel
-  "Laravel.translation.diagnostics": false,
-
-  // Tailwind
-  "tailwindCSS.colorDecorators": false,
-
-  // Prettier
-  "prettier.singleQuote": true,
-  "prettier.jsxSingleQuote": true,
-  "prettier.trailingComma": "all",
-
-  // Cursor Specific
   "cursor.general.gitGraphIndexing": "enabled",
-  "cursor.diffs.useCharacterLevelDiffs": true,
-  "cursor.terminal.usePreviewBox": true,
-  "cursor.composer.collapsePaneInputBoxPills": true,
-  "cursor.composer.shouldAllowCustomModes": true,
-
-  // Security and Other
-  "security.workspace.trust.startupPrompt": "never",
-  "ipynb.pasteImagesAsAttachments.enabled": false,
-  "extensions.ignoreRecommendations": true
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.gotoLocation.alternativeImplementationCommand": "editor.action.goToReferences",
+  "editor.gotoLocation.alternativeReferenceCommand": "editor.action.goToReferences",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "editor.lineHeight": 3,
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "all",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 3,
+  "workbench.layoutControl.enabled": false,
+  "workbench.iconTheme": null,
+  "cursor.diffs.useCharacterLevelDiffs": true
 }
