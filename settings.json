@@ -7,6 +7,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 14,
+  "editor.glyphMargin": false,
   "editor.gotoLocation.alternativeImplementationCommand": "editor.action.goToReferences",
   "editor.gotoLocation.alternativeReferenceCommand": "editor.action.goToReferences",
   "editor.gotoLocation.multipleDeclarations": "goto",
@@ -26,9 +27,11 @@
   "prettier.trailingComma": "all",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.lineHeight": 3,
-  "window.autoDetectColorScheme": true,
+  "workbench.colorTheme": "Default Dark Modern",
   "workbench.iconTheme": null,
   "workbench.layoutControl.enabled": false,
-  "workbench.preferredDarkColorTheme": "Default Dark Modern",
-  "workbench.preferredLightColorTheme": "Default Light Modern",
+  "git.confirmSync": false,
+  "explorer.confirmDelete": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.hover.enabled": false
 }
