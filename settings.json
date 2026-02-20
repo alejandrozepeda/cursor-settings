@@ -33,6 +33,13 @@
   "workbench.colorTheme": "Default Dark Modern",
   "workbench.iconTheme": null,
   "workbench.layoutControl.enabled": false,
+  "workbench.preferredLightColorTheme": "Cursor Light",
   "workbench.preferredDarkColorTheme": "Default Dark Modern",
-  "workbench.preferredLightColorTheme": "Default Light Modern"
+  "claudeCode.preferredLocation": "panel",
+  "json.schemaDownload.enable": true,
+  "claudeCode.selectedModel": "default",
+  "diffEditor.renderSideBySide": false,
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  }
 }
